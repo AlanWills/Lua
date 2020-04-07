@@ -1,6 +1,6 @@
 set(INCLUDES 
-    ${LUA_PROJECT_DIR}/src
-    ${LUA_PROJECT_DIR}/build    #for luaconf.h
+    ${THIRD_PARTY_DIR}/lua/src
+    ${THIRD_PARTY_DIR}/lua/build    #for luaconf.h
     )
 
 set(LIBS 
