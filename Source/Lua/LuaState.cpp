@@ -1,6 +1,6 @@
 #include "Lua/LuaState.h"
 #include "Assert/Assert.h"
-#include "Log.h"
+#include "Log/Log.h"
 
 
 namespace Celeste::Lua
