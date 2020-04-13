@@ -9,7 +9,7 @@
 namespace TestLog
 {
   //------------------------------------------------------------------------------------------------
-  TEST_MODULE_INITIALIZE(TestLog_Initialize)
+  TEST_MODULE_INITIALIZE(TestLua_Initialize)
   {
     Celeste::Assertion::setAsserter(std::make_unique<Celeste::NullAsserter>());
 
