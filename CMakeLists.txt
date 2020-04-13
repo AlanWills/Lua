@@ -10,6 +10,6 @@ set(LIBS
     Log
     FileSystem)
 
-build_library(NAME Lua FOLDER Celeste/Packages TYPE SHARED INCLUDES "${INCLUDES}" LIBS "${LIBS}")
+build_library(NAME Lua FOLDER Celeste TYPE SHARED INCLUDES "${INCLUDES}" LIBS "${LIBS}")
 
 target_compile_definitions(Lua PRIVATE -DBUILDING_LUA_DLL)
