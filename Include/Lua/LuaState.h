@@ -1,6 +1,6 @@
 #pragma once
 
-#include "LuaDllExport.h"
+#include "Lua/LuaDllExport.h"
 #include "Lua/LuaHeaders.h"
 #include "FileSystem/Path.h"
 
