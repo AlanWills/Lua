@@ -10,4 +10,4 @@ set(LIBS
     Log
     FileSystem)
 
-cbt_build_project(NAME Lua FOLDER Celeste TYPE SHARED INCLUDES "${INCLUDES}" LIBS "${LIBS}")
+cbt_build_project(NAME LuaLib FOLDER Celeste TYPE SHARED INCLUDES "${INCLUDES}" LIBS "${LIBS}")
