@@ -15,7 +15,8 @@ namespace Celeste::Lua
       sol::lib::string,
       sol::lib::math,
       sol::lib::os,
-      sol::lib::table);
+      sol::lib::table,
+      sol::lib::coroutine);
   }
 
   //------------------------------------------------------------------------------------------------
