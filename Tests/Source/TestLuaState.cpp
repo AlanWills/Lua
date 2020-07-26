@@ -8,7 +8,7 @@ using LuaState = Celeste::Lua::LuaState;
 
 namespace TestLua
 {
-  TEST_UTILS_TEST_CLASS(TestLuaState)
+  BASE_TEST_CLASS(TestLuaState)
 
   Path luaScriptsPath;
   std::string m_originalPackagePath;
