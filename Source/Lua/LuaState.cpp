@@ -38,7 +38,7 @@ namespace Celeste::Lua
     }
     catch (const sol::error & e)
     {
-      LOG(e.what());
+      Celeste::Log::error(e.what());
       ASSERT_FAIL_MSG(e.what());
     }
 
@@ -57,7 +57,7 @@ namespace Celeste::Lua
     }
     catch (const sol::error & e)
     {
-      LOG(e.what());
+      Celeste::Log::error(e.what());
     }
 
     return result;
